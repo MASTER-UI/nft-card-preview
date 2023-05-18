@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body{
+    color: hsl(215, 51%, 70%);
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+}
+#main{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 10px;
+}
+#para-text{
+    color: white;
+    margin: 20px 0 7px 0;
+    font-weight: 600;
+}
+#bold-text{
+    color: white;
+    font-weight: 400;
+}
+#div{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+#img{
+    border-radius: 7px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+#promo-text{
+    margin: 5px 0;
+    font-weight: 300;
+}
+
+#div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.icon-svg{
+    margin-right: 5px;
+    align-self: center;
+}
+.data-span{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+#cyan-text{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+#avatar-img{
+    margin-right: 10px;
+    width: 25px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.avatar-span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+#horizontal{
+    width: 100%;
+    border: 1px solid hsl(215, 32%, 27%);
+}
